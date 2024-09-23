@@ -1,3 +1,16 @@
+## LTRL: Boosting Long-tail Recognition via Reflective Learning [Official, ECCV 2024 (Oral), [paper](https://arxiv.org/pdf/2407.12568) 🔥
+
+### [Qihao Zhao](https://scholar.google.com/citations?hl=zh-CN&user=sECb19EAAAAJ)<sup>1,2</sup>, Yalun Dai<sup>2</sup>, Shen Lin<sup>3</sup>, [Wei Hu](https://scholar.google.com/citations?user=ACJickwAAAAJ&hl=zh-CN)<sup>1</sup>, [Fan Zhang](https://scholar.google.com/citations?user=CujOi1kAAAAJ&hl=zh-CN)<sup>1</sup>, [Jun Liu](https://scholar.google.com/citations?hl=zh-CN&user=Q5Ild8UAAAAJ)<sup>4,5</sup>
+
+1 Beijing University of Chemical Technology
+2 Nanyang Technological University
+3 Xidian University
+4 Singapore University of Technology and Design
+5 Lancaster University
+
+
+
+
 ## 1. Requirements
 * To install requirements: 
 ```
@@ -52,12 +65,12 @@ data_txt
 ```
 
 
-## 4. Pretrained models
+## 3. Pretrained models
 * For the training on Places-LT, we follow previous methods and use [the pre-trained ResNet-152 model](https://github.com/zhmiao/OpenLongTailRecognition-OLTR).
 * Please download the checkpoint. Unzip and move the checkpoint files to /model/pretrained_model_places/.
 
 
-#### Training
+### Training
 # train SADE_RL/BSCE_RL
 
 ### (1) CIFAR100-LT 
@@ -105,3 +118,18 @@ python train.py -c configs/{sade or bsce}/config_imagenet_lt_resnext50_{sade or 
 ### (4) iNatrualist2018-LT 
 
 python train.py -c configs/{sade or bsce}/config_iNaturalist_resnet50_{sade or ce}_rl.json
+
+## Citation
+
+
+If you find our work inspiring or use our codebase in your research, please consider giving a star ⭐ and a citation.
+```
+@article{zhao2024ltrl,
+  title={LTRL: Boosting Long-tail Recognition via Reflective Learning},
+  author={Zhao, Qihao and Dai, Yalun and Lin, Shen and Hu, Wei and Zhang, Fan and Liu, Jun},
+  journal={arXiv preprint arXiv:2407.12568},
+  year={2024}
+}
+```
+## 4. Acknowledgements
+The mutli-expert framework is based on [SADE](https://github.com/vanint/sade-agnosticlt) and [RIDE](). 
