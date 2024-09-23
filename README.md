@@ -16,6 +16,8 @@
 (* Equal contribution)
 
 
+## The framework of LTRL
+![LTRL](./image.png)
 
 ## 1. Requirements
 * To install requirements: 
