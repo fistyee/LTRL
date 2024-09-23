@@ -39,42 +39,15 @@ data
 ```
 data_txt
 ├── ImageNet_LT
-│   ├── ImageNet_LT_backward2.txt
-│   ├── ImageNet_LT_backward5.txt
-│   ├── ImageNet_LT_backward10.txt
-│   ├── ImageNet_LT_backward25.txt
-│   ├── ImageNet_LT_backward50.txt
-│   ├── ImageNet_LT_forward2.txt
-│   ├── ImageNet_LT_forward5.txt
-│   ├── ImageNet_LT_forward10.txt
-│   ├── ImageNet_LT_forward25.txt
-│   ├── ImageNet_LT_forward50.txt
 │   ├── ImageNet_LT_test.txt
 │   ├── ImageNet_LT_train.txt
-│   ├── ImageNet_LT_uniform.txt
 │   └── ImageNet_LT_val.txt
 ├── Places_LT_v2
-│   ├── Places_LT_backward2.txt
-│   ├── Places_LT_backward5.txt
-│   ├── Places_LT_backward10.txt
-│   ├── Places_LT_backward25.txt
-│   ├── Places_LT_backward50.txt
-│   ├── Places_LT_forward2.txt
-│   ├── Places_LT_forward5.txt
-│   ├── Places_LT_forward10.txt
-│   ├── Places_LT_forward25.txt
-│   ├── Places_LT_forward50.txt
 │   ├── Places_LT_test.txt
 │   ├── Places_LT_train.txt
-│   ├── Places_LT_uniform.txt
 │   └── Places_LT_val.txt
 └── iNaturalist18
-    ├── iNaturalist18_backward2.txt
-    ├── iNaturalist18_backward3.txt
-    ├── iNaturalist18_forward2.txt
-    ├── iNaturalist18_forward3.txt
     ├── iNaturalist18_train.txt
-    ├── iNaturalist18_uniform.txt
     └── iNaturalist18_val.txt 
 ```
 
