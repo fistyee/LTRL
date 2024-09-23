@@ -3,9 +3,13 @@
 ### [Qihao Zhao](https://scholar.google.com/citations?hl=zh-CN&user=sECb19EAAAAJ)<sup>1,2</sup>, Yalun Dai<sup>2</sup>, Shen Lin<sup>3</sup>, [Wei Hu](https://scholar.google.com/citations?user=ACJickwAAAAJ&hl=zh-CN)<sup>1</sup>, [Fan Zhang](https://scholar.google.com/citations?user=CujOi1kAAAAJ&hl=zh-CN)<sup>1</sup>, [Jun Liu](https://scholar.google.com/citations?hl=zh-CN&user=Q5Ild8UAAAAJ)<sup>4,5</sup>
 
 1 Beijing University of Chemical Technology
+
 2 Nanyang Technological University
+
 3 Xidian University
+
 4 Singapore University of Technology and Design
+
 5 Lancaster University
 
 
@@ -18,7 +22,7 @@ pip install -r requirements.txt
 ```
 
 * Hardware requirements
-8 GPUs with >= 11G GPU RAM are recommended. Otherwise the model with more experts may not fit in, especially on datasets with more classes (the FC layers will be large). We do not support CPU training, but CPU inference could be supported by slight modification.
+8 GPUs with >= 12G GPU RAM are recommended. Otherwise the model with more experts may not fit in, especially on datasets with more classes (the FC layers will be large). We do not support CPU training, but CPU inference could be supported by slight modification.
 
 ## 2. Datasets
 ### (1) Four bechmark datasets 
