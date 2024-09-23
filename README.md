@@ -136,4 +136,4 @@ If you find our work inspiring or use our codebase in your research, please cons
 }
 ```
 ## 4. Acknowledgements
-The mutli-expert framework is based on [SADE](https://github.com/vanint/sade-agnosticlt) and [RIDE](). 
+The framework is based on [SADE](https://github.com/vanint/sade-agnosticlt) and [RIDE](). 
