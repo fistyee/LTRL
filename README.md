@@ -1,7 +1,7 @@
 ## LTRL: Boosting Long-tail Recognition via Reflective Learning 
 ## [Official, ECCV 2024 (Oral), [paper](https://arxiv.org/pdf/2407.12568) 🔥
 
-### [Qihao Zhao](https://scholar.google.com/citations?hl=zh-CN&user=sECb19EAAAAJ)<sup>1,2</sup>, Yalun Dai<sup>2</sup>, Shen Lin<sup>3</sup>, [Wei Hu](https://scholar.google.com/citations?user=ACJickwAAAAJ&hl=zh-CN)<sup>1</sup>, [Fan Zhang](https://scholar.google.com/citations?user=CujOi1kAAAAJ&hl=zh-CN)<sup>1</sup>, [Jun Liu](https://scholar.google.com/citations?hl=zh-CN&user=Q5Ild8UAAAAJ)<sup>4,5</sup>
+### [Qihao Zhao](https://scholar.google.com/citations?hl=zh-CN&user=sECb19EAAAAJ)<sup>1,4</sup>, Yalun Dai<sup>2</sup>, Shen Lin<sup>3</sup>, [Wei Hu](https://scholar.google.com/citations?user=ACJickwAAAAJ&hl=zh-CN)<sup>1</sup>, [Fan Zhang](https://scholar.google.com/citations?user=CujOi1kAAAAJ&hl=zh-CN)<sup>1</sup>, [Jun Liu](https://scholar.google.com/citations?hl=zh-CN&user=Q5Ild8UAAAAJ)<sup>4,5</sup>
 
 1 Beijing University of Chemical Technology
 
