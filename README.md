@@ -78,8 +78,8 @@ data_txt
 * Please download the checkpoint. Unzip and move the checkpoint files to /model/pretrained_model_places/.
 
 
-## 4. Training
-### train SADE_RL/BSCE_RL
+## 4. Train
+### Train SADE_RL/BSCE_RL
 
 #### (1) CIFAR100-LT 
 
@@ -107,7 +107,7 @@ python train.py -c configs/{sade or bsce}/config_iNaturalist_resnet50_{sade or c
 
 
 
-### train  SADE/BSCE
+### Train baseline: SADE/BSCE
 
 ```
 nohup python train.py -c configs/{sade/bsce}/config_cifar100_ir10_{sade/ce}.json &>{sade/ce}_10.out&
@@ -115,7 +115,7 @@ nohup python train.py -c configs/{sade/bsce}/config_cifar100_ir50_{sade/ce}.json
 nohup python train.py -c configs/{sade/bsce}/config_cifar100_ir100_{sade/ce}.json &>{sade/ce}_100.out&
 ```
 
-## 5. test
+## 5. Test
 python test.py -r {$PATH}
 
 ### (2) ImageNet-LT 
