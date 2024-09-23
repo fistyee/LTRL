@@ -78,10 +78,10 @@ data_txt
 * Please download the checkpoint. Unzip and move the checkpoint files to /model/pretrained_model_places/.
 
 
-### Training
-# train SADE_RL/BSCE_RL
+## 4. Training
+### train SADE_RL/BSCE_RL
 
-### (1) CIFAR100-LT 
+#### (1) CIFAR100-LT 
 
 ```
 nohup python train.py -c configs/{sade or bsce}/config_cifar100_ir10_{sade or ce}_rl.json &>{sade or ce}_rl_10.out&
@@ -95,19 +95,19 @@ python test.py -r {$PATH}
 
 ```
 
-### (2) ImageNet-LT 
+#### (2) ImageNet-LT 
 
 python train.py -c configs/{sade or bsce}/config_imagenet_lt_resnext50_{sade or ce}_rl.json
 
-### (3) Place-LT 
+#### (3) Place-LT 
 
 python train.py -c configs/{sade or bsce}/config_imagenet_lt_resnext50_{sade or ce}_rl.json
-### (4) iNatrualist2018-LT 
+#### (4) iNatrualist2018-LT 
 python train.py -c configs/{sade or bsce}/config_iNaturalist_resnet50_{sade or ce}_rl.json
 
 
 
-# train  SADE/BSCE
+### train  SADE/BSCE
 
 ```
 nohup python train.py -c configs/{sade/bsce}/config_cifar100_ir10_{sade/ce}.json &>{sade/ce}_10.out&
@@ -115,7 +115,7 @@ nohup python train.py -c configs/{sade/bsce}/config_cifar100_ir50_{sade/ce}.json
 nohup python train.py -c configs/{sade/bsce}/config_cifar100_ir100_{sade/ce}.json &>{sade/ce}_100.out&
 ```
 
-# test
+## 5. test
 python test.py -r {$PATH}
 
 ### (2) ImageNet-LT 
@@ -139,5 +139,5 @@ If you find our work inspiring or use our codebase in your research, please cons
   year={2024}
 }
 ```
-## 4. Acknowledgements
+## Acknowledgements
 The framework is based on [SADE](https://github.com/vanint/sade-agnosticlt) and [RIDE](). 
